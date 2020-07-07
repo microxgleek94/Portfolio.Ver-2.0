@@ -1,0 +1,18 @@
+/* title card styling */
+.card-body {
+    background: lightseagreen;
+}
+#portBody {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(212, 225, 235);
+}
+/* styling for the block images */
+#picStyle {
+    padding: 20px;
+    height: 250px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
