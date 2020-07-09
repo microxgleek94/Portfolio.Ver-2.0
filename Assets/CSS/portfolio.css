@@ -1,18 +1,54 @@
 /* title card styling */
-.card-body {
+#title-div {
     background: lightseagreen;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+#spacer{
+    padding: 0px;
 }
 #portBody {
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
     padding: 20px;
     background-color: rgb(212, 225, 235);
+    font-family: 'Playfair Display', serif;
 }
 /* styling for the block images */
 #picStyle {
     padding: 20px;
-    height: 250px;
-    width: 300px;
+    height: 400px;
+    width: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#link-icons{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:black;
+  }
+
+  /* mouse over link */
+a:hover {
+    color: rgb(76, 233, 233);
+}
+/* FontAwesome Styling on Portfolio HTML*/
+#socialIcon {
+    display: inline-block;  
+}
+/* h2 Center Text for Portfolio HTML */
+h2 {
+    padding: 20px;
+    text-align: center;
 }

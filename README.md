@@ -10,7 +10,19 @@ This updated version of my portfolio highlights some new concepts I have learned
 *JQuery
 *Third-Party APIs
 
-### View my portfolio here!
+These concepts are higligted in my updated "Portfolio" HTML file, which now holds images and the deployed links of projects/assignments I've worked on during the course.
+
+### View my updated portfolio here!
+https://microxgleek94.github.io/Portfolio.Ver-2.0/
+
+### Check out version 1.0
+https://microxgleek94.github.io/Responsive-Bootstrap-Website/
 
 
-## Screenshots of the moblie and desktop view of the portfolio:
+
+## Screenshots of the mobile and desktop view of the portfolio:
+
+
+### Future Developments
+*Add JS to handle the contact page and have emails be sent to me
+*Add JS to have a splash container front page, user has to click a button to enter the website, the spash container gets hidden and then the "main" page with links shows

@@ -1,6 +1,6 @@
 /* background color to whole page */
 body {
-    background-image: url("/Assets/Images/Smoke\ bgd\ image.jpg"); /* Source: https://unsplash.com/photos/ebno_NwaOns} */
+    background-image: url("../Images/Portfolio/Smoke\ bgd\ image.jpg"); /* Source: https://unsplash.com/photos/ebno_NwaOns} */
     height: 500px; 
     background-position: center;
     background-repeat: no-repeat;
@@ -10,42 +10,54 @@ body {
 /* Styling for "Keiana Hanson" */
 #NameBar {
     background-color: lightsteelblue;
+    font-family: 'Galada', cursive;
+    text-align: center;
 
 }
 /* Stylings for container holding "About Me" text and profile picture */
-#row1 {
+#main-row {
     background-color: lightgrey;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
+
 }
+
 
 /* Profile Picture Styling */
 #profilePicture {
-    padding-top: 20px;
+    padding: 5px;
+    height: 500px;
+    width: 500px;
 }
 /* "Content" Container styling */
 #bodyContent {
     margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     background-color: rgb(212, 225, 235);
+    font-family: 'Playfair Display', serif;
 }
 /* styling for border under "About Me" // how to make line static? 
 when resizing page, boarder goes the length of container */
 #border {
     border-bottom: solid black;
-    border-width: 0px 0px 2px 0px; /* x top, 0px right, 4px bottom and 0px left */ 
+    border-width: 0px 0px 2px 0px; /* x top, 0px right, 4px bottom and 0px left */
+    margin-bottom: 20px; 
 }
 
 /* Review to get more spacing between text and profile picture */
 #styleText {
-    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 /* Footer Styling */
 #FooterStyle {
         background-color: lightslategray;
         padding-top: 30px;
+        padding-bottom: 80px;
         color: honeydew;
         height: 80px;
         text-align: center;
@@ -53,12 +65,4 @@ when resizing page, boarder goes the length of container */
         margin-bottom: 0px;
         width:100%;
 }
-/* FontAwesome Styling on Portfolio HTML*/
-#socialIcon {
-    display: inline-block;  
-}
-/* h2 Center Text for Portfolio HTML */
-h2 {
-    padding: 20px;
-    text-align: center;
-}
+
